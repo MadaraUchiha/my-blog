@@ -898,7 +898,7 @@ body:not(.post-template) .post-title {
     max-width: none;
     margin: 0 -13%;
 }
-
+/* 
 .post-content pre {
     word-break: normal;
     word-wrap: normal;
@@ -906,6 +906,11 @@ body:not(.post-template) .post-title {
 
 .post-content pre code {
     white-space: pre;
+} */
+
+/* Override prettyprint's default line numbers style */
+pre.prettyprint ol li {
+    list-style-type: decimal;
 }
 
 /* The author credit area after the post */

@@ -59,6 +59,16 @@
 
         $(".scroll-down").arctic_scroll();
 
+        $("pre").each(function() {
+            if (($(this).html().split(/\n/).length - 1) > 3) {
+                $(this).addClass('prettyprint linenums:1');
+            }
+        });
+
+        if (window.prettyPrint) {
+            window.prettyPrint();
+        }
+
     });
 
     // smartresize
