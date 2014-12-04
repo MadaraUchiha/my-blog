@@ -899,6 +899,15 @@ body:not(.post-template) .post-title {
     margin: 0 -13%;
 }
 
+.post-content pre {
+    word-break: normal;
+    word-wrap: normal;
+}
+
+.post-content pre code {
+    white-space: pre;
+}
+
 /* The author credit area after the post */
 .post-footer {
     position: relative;
